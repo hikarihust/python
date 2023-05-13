@@ -16,4 +16,5 @@ Hello Python
 Variable
 Number
 Exe 01 - shape
+String 01
     
