@@ -10,4 +10,8 @@ Hello Python
     Thực thi file python:   python fileName.py
     Ghi chú trong file
     # nội dung ghi chú
+
+====================================== Làm việc với các kiểu dữ liệu trong Python ======================================
+
+Variable
     
