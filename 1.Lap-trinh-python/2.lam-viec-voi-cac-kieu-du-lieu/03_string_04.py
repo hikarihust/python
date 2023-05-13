@@ -1,0 +1,10 @@
+str = "Python"
+print(str)
+strFormat = str.center(20)
+print(strFormat)
+strFormat = str.center(12,"-")
+print(strFormat)
+strFormat = str.ljust(12,"_")
+print(strFormat)
+strFormat = str.rjust(12,"_")
+print(strFormat)
