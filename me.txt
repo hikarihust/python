@@ -17,4 +17,5 @@ Variable
 Number
 Exe 01 - shape
 String 01
+String 02
     
