@@ -5,4 +5,9 @@ Enviroment
 		Khi cài: Add Python 3.8 to PATH
 		Kiểm tra cài đặt thành công: cmd -> python -> xem version
 	Visual Studio Code
+Hello Python
+    File python có phần mở rộng: *.py
+    Thực thi file python:   python fileName.py
+    Ghi chú trong file
+    # nội dung ghi chú
     
