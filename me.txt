@@ -1,0 +1,8 @@
+====================================== Chương trình Python đầu tiên ======================================
+Enviroment
+	Download Python
+		Link: https://www.python.org/
+		Khi cài: Add Python 3.8 to PATH
+		Kiểm tra cài đặt thành công: cmd -> python -> xem version
+	Visual Studio Code
+    
