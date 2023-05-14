@@ -38,4 +38,5 @@ Exe 06 - nnn
 For
 While
 Break Continue
+Exe 07 - range 01
     
