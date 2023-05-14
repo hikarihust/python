@@ -42,4 +42,7 @@ Exe 07 - range 01
 Exe 07 - range 02
 Exe 08 - count
 Exe 09 - longest
-    
+
+====================================== Xây dựng Function ======================================
+
+Function 01
