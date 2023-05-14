@@ -60,4 +60,5 @@ Exe 12 - random
 
 open
 Readline
+Write
     
