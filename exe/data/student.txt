@@ -1,0 +1,1 @@
+[{"name": "vuquang", "score": "8,9"}, {"name": "dinhquang", "score": "1,2"}, {"name": "quangvu", "score": "3,4"}]
