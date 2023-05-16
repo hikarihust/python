@@ -73,4 +73,5 @@ Phạm vi truy cập của các biến
 
 Class
 Init
+Func
 	
