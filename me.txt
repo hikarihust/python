@@ -78,4 +78,5 @@ set
 Inheritance
 Str
 len
+del
 	
