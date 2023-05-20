@@ -79,4 +79,5 @@ Inheritance
 Str
 len
 del
+Exe 15 - class
 	
