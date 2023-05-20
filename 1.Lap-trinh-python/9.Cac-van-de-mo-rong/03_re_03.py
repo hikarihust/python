@@ -4,12 +4,10 @@ import re
 
 pattern = "abc"
 pattern = ".*abc"
-pattern = ".*abc.*"
 text    = "123 abc xabc 456"
+match = re.search(pattern, text)
 
-match = re.match(pattern, text)
-if match:
-    print("Found")
-    print(match)
+if re.search(pattern, text):
+     print (match.group())
 else :
-    print("Not Found") 
+    print("Not Found")
