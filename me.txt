@@ -76,4 +76,5 @@ Init
 Func
 set
 Inheritance
+Str
 	
