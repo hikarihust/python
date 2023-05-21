@@ -16,7 +16,13 @@ timeWorkStart   = dt(timeCurrent.year,timeCurrent.month, timeCurrent.day, 21)
 timeWorkEnd     = dt(timeCurrent.year, timeCurrent.month, timeCurrent.day, 23)
 
 if timeWorkStart < timeCurrent < timeWorkEnd:
-    print("lam viec")
+    with open(hosts_file,'r+') as file:
+        content = file.read()
+        for website in website_list:
+            if website in content:
+                pass
+            else:
+                file.write(local+" "+ website+"\n")
 else:
     print("nghi ngoi")
 
