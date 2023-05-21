@@ -24,7 +24,13 @@ if timeWorkStart < timeCurrent < timeWorkEnd:
             else:
                 file.write(local+" "+ website+"\n")
 else:
-    print("nghi ngoi")
+    with open(hosts_file,'r+') as file:
+        content = file.readlines()
+        file.seek(0)
+        file.truncate()
+        for line in content:
+            if not any(website in line for website in website_list):
+                file.write(line)
 
 
 # while True:
