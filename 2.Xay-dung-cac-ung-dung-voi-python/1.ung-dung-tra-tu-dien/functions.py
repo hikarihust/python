@@ -10,5 +10,17 @@ def findWord(keyword, data):
     return result
     
 def showWord(word):
-    print('showWord')
-    return word
+    spelling = word[0]
+    means    = join(word[1:], "\n")
+
+    return "Spelling: {spelling} \nMeans:\n{means}".format(
+        spelling    = spelling, 
+        means       = means 
+    )
+
+def join(listInput, sep):
+    result = ''
+    for el in listInput:
+        result += '+ {}{}'.format(el, sep)
+    return result
+    
