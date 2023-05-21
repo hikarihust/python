@@ -5,7 +5,18 @@ def findWord(keyword, data):
     if keyword in data:
         result = showWord(data[keyword])
     else:
-        result = "Not found"
+        listSuggest = get_close_matches(keyword, data.keys(), 3)
+        if(len(listSuggest) > 0) :
+            for suggest in listSuggest:
+                confirm = input("Bạn muốn tìm từ: {} (Enter y if yes, or n if no): ".format(suggest) )
+                if (confirm == "y"):
+                    result = showWord(data[suggest])
+                    break
+                elif (confirm == "n"):
+                    continue
+                else :
+                    result = "No valid"
+                    break
     
     return result
     
